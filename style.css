@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Handjet", sans-serif;
+  color: #fff123;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.hat {
+  text-align: center;
+}
+.button {
+  display:inline-block ;
+  width: 20%;
+  height: 25px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  color:#ccae1c;
+  background-color: black;
+  text-decoration: none;
+  border: 2px solid #66570e;
+  border-radius: 20px;
+  font-weight: bold;
+}
+h1 {
+ text-align: center;
+ margin-right: 325px;
+ margin-top: 50px;
+}
+h2 {
+  text-align: center;
+  margin-top: 25px;
+} 
+.logo {
+  float: left;
+  padding: 20px 20px 20px 20px;
+  width: 150px;
+  height: auto;
+  margin-left: 200px;
+}
+.photo {
+  float: left;
+  padding: 10px 10px 10px 10px;
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: fill;
+  border: 4px solid #fff123;
+}
+body h1{
+  font-size: 50px;
+}
+section{
+  align-self: center;
+  width: 100%;
+  max-width: 800px;
+  background-color: #332c07;
+  padding: 20px 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+section h3{
+  font-size: 24px;
+  color: #e5c720;
+}
+section h2{
+  color: #e5c720;
+}
+section p{
+  color: #ccae1c;
+}
+.contacts ul{
+ color: #ccae1c;
+ list-style: none;
+}
+.contacts a {
+ color: #ccae1c;
+ text-decoration: none;
+}
+.contacts a:hover{
+  text-decoration: underline;
+}
+footer {
+  margin-top: auto;
+  font-size: 16px;
+  align-self: center;
+  color: #66570e;
+}
+.cont {
+  align-self: center;
+  width: 100%;
+  max-width: 800px;
+  background-color: #332c07;
+  padding: 20px 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 20px;
+  object-fit: fill;
+  display: inline-block; 
+}
+.cert {
+  float: left;
+  padding: 10px 10px 10px 10px;
+  height: 200px;
+  width: auto;
+}
+.buttonoff {
+  display:inline-block ;
+  width: 20%;
+  height: 25px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  color:#998015;
+  background-color: black;
+  text-decoration: none;
+  border: 2px solid #332a07;
+  border-radius: 20px;
+  font-weight: bold;
+}
